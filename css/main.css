@@ -3,4 +3,10 @@ body {
 }
 h1 {
   color: #C2F6C6;
+  font-family: "Copperplate", fantasy;
+  border-style: groove;
+  border-color: #8CBB8F;
+}
+img {
+  border-radius: 50%;
 }
