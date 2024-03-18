@@ -1,6 +1,6 @@
 body {
   background-color : #C2F6C6
   & img {
-  border-radius: 75%;
+  border-radius: 50%;
 }
 }
