@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Form</title>
+</head>
+<body>
+
+<form action="https://www.google.com/search" method="GET">
+  <fieldset>
+    <legend>Search Google</legend>
+    <label for="searchInput">Search Query:</label>
+    <input type="text" id="searchInput" name="q" placeholder="Enter your search query">
+
+    <label for="searchType">Search Type:</label>
+    <select id="searchType" name="searchType">
+      <option value="web">Web</option>
+      <option value="images">Images</option>
+      <option value="videos">Videos</option>
+    </select>
+
+    <fieldset>
+      <legend>Search Preferences</legend>
+      <label><input type="checkbox" name="pref_lang" value="en"> English</label><br>
+      <label><input type="checkbox" name="pref_lang" value="fr"> French</label><br>
+      <label><input type="checkbox" name="pref_lang" value="es"> Spanish</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Safe Search</legend>
+      <label><input type="radio" name="safe_search" value="off" checked> Off</label><br>
+      <label><input type="radio" name="safe_search" value="moderate"> Moderate</label><br>
+      <label><input type="radio" name="safe_search" value="strict"> Strict</label><br>
+    </fieldset>
+
+    <label for="additionalInfo">Additional Information:</label>
+    <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50" placeholder="Enter any additional information"></textarea><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+
+    <input type="submit" value="Search">
+  </fieldset>
+</form>
+
+</body>
+</html>
