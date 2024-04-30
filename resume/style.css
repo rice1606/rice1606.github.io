@@ -17,7 +17,5 @@ img {
 h1 {
   font-size: 60;
   color: #8B70F9;
-}
-ul {
-  list-style-type: square;
+  font-family: Copperplate, sans-serif;
 }
